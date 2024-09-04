@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="school.css">
+ </head>
+    <script>
+        // Logout button functionality
+        document.getElementById('logoutBtn').addEventListener('click', function() {
+            // Clear session data
+            localStorage.removeItem('rollNo');
+            localStorage.removeItem('password');
+            // Redirect to login page
+            window.location.href = 'login.html';
+        });
+    </script>
+<body>
+    <header class="header">
+        <div class = "big">
+            <a href="https://imgbb.com/"><img src="https://i.ibb.co/stSRLK6/srk.webp" alt="srk" width="150" /></a>
+            <nav class = "links" >
+                <ul>
+                    <li><a href="school (1).html">Home</a></li>
+                    <li><a href="timepass1.html">Academics</a></li>
+                    <li><a href="dep1.html">Departments</a></li>
+                    <li><a href="event1.html">Events</a></li>
+                    <li><a href="aboutus.html">About us</a></li>
+                    <button class="button1"><a href="school.html">Log Out</a></button> 
+                </ul>
+            </nav>
+        </div>
+        <div>
+            <p class = "line">
+                sarvepalli radhakrishna educational society <br> Inspiring Minds, Shaping Futures
+            </p>
+        </div>
+            </form>
+        </div>
+     </div>
+
+
+       
+
+    </header>
+    
+</body>
+</html>

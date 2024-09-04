@@ -1,0 +1,81 @@
+ /* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Main Content */
+main {
+    position: relative;
+    padding: 20px;
+}
+
+/* Back Button Styles */
+.back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    background-color: #023047;
+    color: #f1f5f7;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-size: 16px;
+    z-index: 1000; /* Ensure the button stays on top */
+}
+
+.back-button:hover {
+    background-color: #f1f5f7;
+    color: #023047;
+}
+
+/* About Us Section */
+.about-us {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-us h1, .about-us h2 {
+    margin-bottom: 20px;
+    color: #023047;
+}
+
+.about-us p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #333;
+}
+
+.about-us ul {
+    list-style: none;
+    margin: 20px 0;
+}
+
+.about-us ul li {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #023047;
+}
+
+/* Footer */
+.footer {
+    background-color: #023047;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+}

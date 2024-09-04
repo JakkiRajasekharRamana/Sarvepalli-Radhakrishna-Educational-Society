@@ -1,0 +1,160 @@
+.header{
+    min-height: 15vh;
+    width: 100%;
+    background-color:#023047;
+    position: relative;
+    height: 100px;
+    opacity:100% ;
+  
+  
+  }
+  .big{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+.links ul li a{
+    color:#1fa1d4;
+    flex:1;
+    text-align: right;
+}
+.links ul li{
+    display:inline-block ;
+    padding: 8px 12px;
+    list-style: none;
+    position:relative;
+
+}
+.links ul li a {
+    color:#f1f4f5;
+    font-size:21px;
+    text-decoration: none;
+    font-weight: 700;
+
+}
+
+.links ul li::after{
+  content:'';
+  height:4px;
+  width: 100%;
+  background: #023047	;
+  margin: auto;
+  display: block;
+  transition: 0.5s;
+
+}
+  
+.links ul li:hover::after{
+    width: 100%;
+  
+  }
+  
+  
+  .button {
+    border: none;
+    color: rgb(93, 248, 73);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+    font-size: 1px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  
+  
+  .button1 {
+      font-size: 20px;
+      border-radius: 6px;
+      padding: 10px 20px;
+      background-color: transparent;
+    /*background-color: rgb(32, 252, 233);*/
+  }
+  .button1 a {
+    text-decoration: none;
+    color: #f3f5f7;
+    font-weight: 700;
+  
+  }
+  .button2 a{
+    text-decoration: none;
+    color:#f0f3f5;
+    font-weight: 700;
+  
+  }
+  .button1:hover {
+    background-color: #023047;
+    color: #0b0c0c;
+    box-shadow: 2px 2px;
+  }
+  
+  .button1 a:hover{
+    color:white;
+  }
+  .button2 a:hover{
+    color:white;
+  }
+  .button2 {
+      padding: 10px 20px;
+      border-radius: 6px;
+      font-size: 20px;
+    /*background-color: rgb(19, 245, 234);*/
+    color: black;
+    background-color: transparent;
+  }
+  
+  .button2:hover {
+    background-color: #023047;
+    color: rgb(19, 16, 16);
+    box-shadow: 2px 2px;
+  }
+
+  .h1 
+  {
+    text-align: center;
+    line-height: 1.5;
+  }
+  .p{
+    font-size: 20px;
+    font-weight: 500px;
+  }
+.container{
+    line-height: 1.5;
+    justify-content: space-around;
+    background-color: #e0fbfc;
+}
+.department{
+    height: 500px;
+    width:500px;
+    border: solid #0b0c0c;
+    border-radius: 0.5rem;
+    font-size: 20px;
+    padding:2px;
+    font-weight: 500px;
+    background-color: #3d5a80;
+    opacity: 85%;
+}
+.department:hover{
+    box-shadow: 4px 4px;
+    
+
+}
+.box1{
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    max-height: 100%;
+    max-width: 100%;
+}
+.box2{
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    line-height: 2;
+
+
+}
